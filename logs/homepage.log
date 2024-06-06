@@ -1,0 +1,686 @@
+[2024-04-06T18:34:19.346Z] info: docker.yaml was copied to the config folder
+[2024-04-06T18:34:19.349Z] info: services.yaml was copied to the config folder
+[2024-04-06T18:34:19.350Z] info: bookmarks.yaml was copied to the config folder
+[2024-04-06T18:34:19.359Z] info: widgets.yaml was copied to the config folder
+[2024-04-06T18:34:19.360Z] info: custom.css was copied to the config folder
+[2024-04-06T18:34:19.361Z] info: custom.js was copied to the config folder
+[2024-04-06T18:34:19.394Z] info: kubernetes.yaml was copied to the config folder
+[2024-04-06T18:46:54.402Z] error: bad indentation of a mapping entry (8:13)
+
+ 5 | - Networking:
+ 6 |     - OpnSense:
+ 7 |     - icon: si-github-#FFFFFF
+ 8 |         href: https://connect.lstra.com:8443
+-----------------^
+ 9 |         siteMonitor: https://connect.lstra.c ...
+ 10 |         description: OpnSense Firewall
+[2024-04-06T18:46:54.419Z] error: Failed to load services.yaml, please check for errors
+[2024-04-06T18:46:54.420Z] error: YAMLException: bad indentation of a mapping entry (8:13)
+
+ 5 | - Networking:
+ 6 |     - OpnSense:
+ 7 |     - icon: si-github-#FFFFFF
+ 8 |         href: https://connect.lstra.com:8443
+-----------------^
+ 9 |         siteMonitor: https://connect.lstra.c ...
+ 10 |         description: OpnSense Firewall
+[2024-04-06T18:46:54.443Z] error: Failed to load services.yaml, please check for errors
+[2024-04-06T18:46:54.443Z] error: YAMLException: bad indentation of a mapping entry (8:13)
+
+ 5 | - Networking:
+ 6 |     - OpnSense:
+ 7 |     - icon: si-github-#FFFFFF
+ 8 |         href: https://connect.lstra.com:8443
+-----------------^
+ 9 |         siteMonitor: https://connect.lstra.c ...
+ 10 |         description: OpnSense Firewall
+[2024-04-06T18:46:54.745Z] error: Failed to load services.yaml, please check for errors
+[2024-04-06T18:46:54.745Z] error: YAMLException: bad indentation of a mapping entry (8:13)
+
+ 5 | - Networking:
+ 6 |     - OpnSense:
+ 7 |     - icon: si-github-#FFFFFF
+ 8 |         href: https://connect.lstra.com:8443
+-----------------^
+ 9 |         siteMonitor: https://connect.lstra.c ...
+ 10 |         description: OpnSense Firewall
+[2024-04-06T18:47:47.952Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANCommonIFC1...
+[2024-04-06T18:47:47.956Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:47:47.957Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANIPConn1...
+[2024-04-06T18:47:47.957Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:49:11.920Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANCommonIFC1...
+[2024-04-06T18:49:11.921Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:49:11.925Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANIPConn1...
+[2024-04-06T18:49:11.927Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:49:32.399Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANCommonIFC1...
+[2024-04-06T18:49:32.401Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:49:32.403Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANIPConn1...
+[2024-04-06T18:49:32.405Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:53:09.488Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANCommonIFC1...
+[2024-04-06T18:53:09.490Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:53:09.492Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANIPConn1...
+[2024-04-06T18:53:09.493Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:53:09.494Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANCommonIFC1...
+[2024-04-06T18:53:09.495Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:53:09.495Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANIPConn1...
+[2024-04-06T18:53:09.496Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:54:49.840Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANCommonIFC1...
+[2024-04-06T18:54:49.841Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T18:54:49.842Z] error: <httpProxy> Error calling https://connect.lstra.com:49443/igdupnp/control/WANIPConn1...
+[2024-04-06T18:54:49.843Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-04-06T19:07:57.269Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://docker.lstra.com/api/endpoints/2/docker/containers/json?all=1
+[2024-04-06T19:08:05.442Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://docker.lstra.com/api/endpoints/3/docker/containers/json?all=1
+[2024-04-06T19:08:08.230Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://docker.lstra.com/api/endpoints/3/docker/containers/json?all=1
+[2024-04-06T19:21:27.467Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:21:40.506Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:22:03.815Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:22:06.343Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:22:19.394Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:22:23.048Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:22:31.094Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:23:01.975Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:23:04.503Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:23:17.550Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:23:46.225Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:23:54.269Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:24:10.000Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:24:20.756Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:24:23.269Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-06T19:24:36.315Z] error: <credentialedProxyHandler> HTTP Error 401 calling https://proxmox.lstra.com/api2/json/cluster/resources
+[2024-04-07T19:34:08.565Z] error: undefined
+[2024-04-07T19:34:08.567Z] error: undefined
+[2024-04-07T19:34:08.567Z] error: undefined
+[2024-04-07T19:34:08.570Z] error: undefined
+[2024-04-07T19:34:08.570Z] error: undefined
+[2024-04-07T19:34:08.571Z] error: undefined
+[2024-04-07T19:34:08.572Z] error: undefined
+[2024-04-07T19:34:08.572Z] error: undefined
+[2024-04-07T19:34:08.573Z] error: undefined
+[2024-04-07T19:34:08.574Z] error: undefined
+[2024-04-07T19:34:08.574Z] error: undefined
+[2024-04-07T19:34:08.575Z] error: undefined
+[2024-04-07T19:34:08.576Z] error: undefined
+[2024-04-07T19:34:08.581Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:08.582Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-04-07T19:34:08.612Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:08.612Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-04-07T19:34:09.014Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:09.015Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-04-07T19:34:11.595Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:11.596Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-04-07T19:34:33.726Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:33.727Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-04-07T19:34:33.751Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:33.751Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-04-07T19:34:34.035Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:34:34.036Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-04-07T19:35:28.200Z] error: undefined
+[2024-04-07T19:35:28.202Z] error: undefined
+[2024-04-07T19:35:28.202Z] error: undefined
+[2024-04-07T19:35:28.203Z] error: undefined
+[2024-04-07T19:35:28.206Z] error: undefined
+[2024-04-07T19:35:28.207Z] error: undefined
+[2024-04-07T19:35:33.217Z] error: undefined
+[2024-04-07T19:35:33.236Z] error: undefined
+[2024-04-07T19:35:33.237Z] error: undefined
+[2024-04-07T19:35:38.241Z] error: undefined
+[2024-04-07T19:35:38.243Z] error: undefined
+[2024-04-07T19:35:38.243Z] error: undefined
+[2024-04-07T19:35:43.269Z] error: undefined
+[2024-04-07T19:50:02.895Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.897Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.898Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.900Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.901Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.901Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.902Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.903Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.904Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.905Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.906Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.907Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.908Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.908Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.909Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.910Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.912Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.913Z] error: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.920Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:50:02.920Z] error: YAMLException: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:02.940Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:50:02.941Z] error: YAMLException: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:50:03.399Z] error: Failed to load services.yaml, please check for errors
+[2024-04-07T19:50:03.399Z] error: YAMLException: bad indentation of a mapping entry (36:5)
+
+ 33 |         href: https://n8n.lstra.com
+ 34 |         icon: si-vmware-vmware
+ 35 |         siteMonitor: https://esxi-l ...
+ 36 |     - n8n:
+----------^
+ 37 |         description: N8n Automation
+ 38 |         href: https://n8n.lstra.com
+[2024-04-07T19:56:35.576Z] error: undefined
+[2024-04-07T19:56:35.933Z] error: undefined
+[2024-04-07T19:56:41.028Z] error: undefined
+[2024-04-07T19:56:56.051Z] error: undefined
+[2024-04-30T14:31:31.419Z] error: undefined
+[2024-05-20T08:22:39.602Z] error: undefined
+[2024-05-20T08:22:54.620Z] error: undefined
+[2024-05-20T08:31:43.794Z] error: undefined
+[2024-05-20T08:35:03.955Z] error: undefined
+[2024-05-21T10:54:25.954Z] error: undefined
+[2024-05-25T11:29:05.873Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:29:05.874Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:29:05.877Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:29:05.878Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:29:05.878Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:29:05.879Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:29:05.880Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:29:05.880Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:29:10.856Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:29:10.856Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:52:21.837Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:52:21.838Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:52:21.838Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:52:21.839Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:52:21.840Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:52:21.840Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:52:21.841Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:52:21.842Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:52:26.802Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:52:26.803Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:52:51.667Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:52:51.667Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:52:51.701Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:52:51.701Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:05.030Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:54:05.030Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:05.031Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:54:05.062Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:54:05.062Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:05.066Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:54:05.066Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:05.066Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:54:10.083Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:54:10.084Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:10.330Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:54:10.330Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:10.330Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:54:10.331Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:54:10.332Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:10.332Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:54:10.333Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:54:10.333Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:15.317Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:54:15.317Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:15.318Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:54:15.319Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:15.319Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:54:15.320Z] error: <httpProxy> Error calling https://unifi.lstra.com/proxy/network/api/stat/sites...
+[2024-05-25T11:54:15.321Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:15.321Z] error: <unifiProxyHandler> HTTP 500 getting data from Unifi endpoint https://unifi.lstra.com/proxy/network/api/stat/sites. Data: { error: [Object] }
+[2024-05-25T11:54:40.147Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:54:40.148Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:54:40.154Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:54:40.155Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:55:10.255Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:55:10.256Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-05-25T11:55:10.264Z] error: <httpProxy> Error calling https://unifi.lstra.com/...
+[2024-05-25T11:55:10.265Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-06-05T19:30:55.359Z] error: <servicesProxy> TypeError: Cannot read properties of undefined (reading 'method')
+    at handler (/app/.next/server/pages/api/services/proxy.js:432:21)
+    at async Object.apiResolver (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async NextNodeServer.run (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async NextNodeServer.handleRequest (/app/node_modules/.pnpm/next@12.3.4_react-dom@18.2.0_react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+    at async Server.<anonymous> (/app/server.js:19:5)

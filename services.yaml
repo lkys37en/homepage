@@ -1,0 +1,103 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Infrastructure:
+    - Core Switch:
+    - Unifi Controller:
+        href: https://unifi.lstra.com
+        icon: si-ubiquiti-#0559C9
+        siteMonitor: https://unifi.lstra.com
+        widget:
+          type: unifi
+          url: https://unifi.lstra.com
+          username: ha_unifi
+          password: Zagi^H!Dj&6@E3*A3e13
+          #site: Site Name # optional
+    - OpnSense:
+        href: https://connect.lstra.com:8443
+        icon: si-opnsense-#D94F00
+        siteMonitor: https://connect.lstra.com:8443
+        widget:
+            type: opnsense
+            url: https://connect.lstra.com:8443
+            username: d1FeZkm/XV10CRwIJ4IBCBoiRszx5btow7NrZT3sUqKpNLZWq1ut+4itXw7BJtDkj6MJ4lqHAi8t58ZB
+            password: eUc3PLbQF7JiSpoZjR/4bTF5Bb0g8yfvKKsDpvQ/EdOPtJcHtN3uCbFmlVPxFMX+inX+L1XIFy9csH5V
+    - vCenter:
+        href: https://vcenter.lstra.com/ui
+        icon: si-vmware-#607078
+        siteMonitor: https://vcenter.lstra.com
+    - ESXI:
+        href: https://esxi-lab.lstra.com/ui/#/login
+        icon: si-vmware-#607078
+        siteMonitor: https://esxi-lab.lstra.com
+    - Proxmox Ludus:
+        href: https://proxmox.lstra.com
+        icon: si-proxmox-#E57000
+        siteMonitor: https://proxmox.lstra.com
+        widget:
+          type: proxmox
+          url: https://proxmox.lstra.com
+          username: jnogueira@pam!homepage
+          password: 623c7a84-b02f-4200-a8df-3cb3114149f0
+          node: ludus
+
+- Production:
+    - n8n:
+        href: https://n8n.lstra.com
+        icon: si-nano-#4A90E2
+        siteMonitor: https://n8n.lstra.com
+
+    - Portainer-Prod:
+        href: https://docker.lstra.com
+        icon: si-portainer-#13BEF9
+        siteMonitor: https://docker.lstra.com
+        widget:
+          type: portainer
+          url: https://docker.lstra.com
+          env: 2
+          key: ptr_ampz9Ax+99rWfg8lQoL3ZUCw8Vy85rZY+gCZGKqQHjM=
+
+    - Portainer-NetworkApps:
+        href: https://docker.lstra.com
+        icon: si-portainer-#13BEF9
+        siteMonitor: https://docker.lstra.com
+        widget:
+          type: portainer
+          url: https://docker.lstra.com
+          env: 3
+          key: ptr_ampz9Ax+99rWfg8lQoL3ZUCw8Vy85rZY+gCZGKqQHjM=
+
+    - Proxy:
+        href: https://proxy.lstra.com
+        icon: si-nginxproxymanager-#F15833
+        siteMonitor: https://proxy.lstra.com
+        widget:
+          type: npm
+          url: https://proxy.lstra.com
+          username: joaquimn@lstra.com
+          password: XGT6xtd_jae1mwv4dhm
+
+    - AdGuard:
+        href: https://adguard.lstra.com
+        icon: si-adguard-#68BC71
+        siteMonitor: https://adguard.lstra.com
+        widget:
+          type: adguard
+          url: https://adguard.lstra.com
+          username: admin
+          password: X0ziQsY1CGPuoEuySdjS
+
+- Nvidia Sheild TV Status:
+    - Living Room:
+        icon: si-nvidia-#76B900
+        ping: 10.7.8.57
+    - Master:
+        icon: si-nvidia-#76B900
+        ping: 10.7.8.58
+    - Loft:
+        icon: si-nvidia-#76B900
+        ping: 10.7.8.60
+    - Guest:
+        icon: si-nvidia-#76B900
+        ping: 10.7.8.61
